@@ -13,7 +13,7 @@ body {
 .eisenhower-matrix img {
     width: 100%;
 }
-.eisenhower-matrix .more-info {
+.eisenhower-matrix .eisenhower-matrix__link {
     font-family: fantasy, cursive;
 }
 
@@ -22,7 +22,7 @@ body {
     text-align: center;
   }
 }
-.main-page-element {
+.main-content {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -32,7 +32,7 @@ body {
     display: inline-block;
     flex-grow: 1;
 }
-.task-row-wrapper {
+.main-content__add-task {
     display: flex;
 }
 ul {
